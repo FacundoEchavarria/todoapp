@@ -1,0 +1,25 @@
+.footer {
+  background-color: #303E27;
+  width: 100%;
+  height: calc(100vh - 85vh - 3.5rem - 5px);
+
+  border-top: #303E27 3px solid;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.footer p {
+  color: #B4BB72;
+  font-size: 16px;
+  margin-bottom: 0.4rem;
+}
+
+.footer a{
+  color: #E7EAA8;
+
+  &:hover {
+    color: #F6FAF7;
+  }
+}
